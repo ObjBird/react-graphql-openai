@@ -1,1 +1,1 @@
-# -react-graphql-openai
+# react-graphql-openai
