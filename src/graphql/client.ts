@@ -2,7 +2,7 @@ import { ApolloClient, InMemoryCache, HttpLink, from } from '@apollo/client';
 import { onError } from '@apollo/client/link/error';
 
 // 这里替换为你的Cloudflare Workers GraphQL端点
-const GRAPHQL_ENDPOINT = 'https://openai-graphql-proxy.zhanglong116033.workers.dev';
+const GRAPHQL_ENDPOINT = 'https://api.longdi.xyz';
 
 // 错误处理链接
 const errorLink = onError(({ graphQLErrors, networkError }) => {
